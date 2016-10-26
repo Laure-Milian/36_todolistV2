@@ -1,0 +1,23 @@
+{
+  "name": "36_todolistv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laure-Milian/36_todolistV2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laure-Milian/36_todolistV2/issues"
+  },
+  "homepage": "https://github.com/Laure-Milian/36_todolistV2#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "semantic-ui": "^2.2.4"
+  }
+}

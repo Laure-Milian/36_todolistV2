@@ -1,0 +1,13 @@
+.container {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.ui.padded.segment {
+	width: 100%
+}
+
+#inputTask {
+	width: 500px;
+	height: 40px;
+}
