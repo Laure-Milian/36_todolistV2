@@ -13,20 +13,9 @@
 	<div class="container">
 		
 		<div class="ui centered grid">
-
-			<div class="row">
-				<div class="ui padded segment">
-					<div class="ui row">
-					<form onsubmit="return false">
-							<input type="text" id="inputTask">
-							<button id="addTaskBtn" class="ui teal button">Ajouter une tâche à la liste active</button>
-						</form>
-					</div>
-				</div>
-			</div>
 			
 			<div class="row">
-				<div class="four wide column">
+				<div id="verticalMenu" class="four wide column">
 					<div class="ui vertical menu">
 						<a class="active item">
 							Liste 1
@@ -37,19 +26,53 @@
 						<a class="item">
 							Liste 3
 						</a>
+						<a class="item">
+							Liste 3
+						</a>
+						<a class="item">
+							Liste 3
+						</a>
 						<div class="item">
 							<button class="ui teal basic button">Créer nouvelle liste</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="twelve wide stretched column">
+				<div class="twelve wide column">
+					<div class="ui form">
+						<h1>Titre de la liste active</h1>
+						<div class="inline fields">
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio">
+									<label>Toutes les tâches de la liste</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio">
+									<label>Tâches réalisées</label>
+								</div>
+							</div>
+							<div class="field">
+								<div class="ui radio checkbox">
+									<input type="radio">
+									<label>Tâches en cours</label>
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="ui segment">
 						<ul id="listTasks">
 							<li class="ui list"><div class="ui checkbox"><input type="checkbox"> <label>Exemple de tâche 1</label></div></li>
 							<li class="ui list"><div class="ui checkbox"><input type="checkbox"> <label>Exemple de tâche 2</label></div></li>
+							<input type="checkbox"> <label>Exemple de tâche 2</label>
 						</ul>
+						<form onsubmit="return false">
+							<input type="text" id="inputTask">
+							<button id="addTaskBtn" class="ui teal button">Ajouter une tâche à la liste active</button>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -57,8 +80,8 @@
 
 	</div>
 
-
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/semantic-ui/dist/semantic.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
